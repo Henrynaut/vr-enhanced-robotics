@@ -1,0 +1,14 @@
+STEPS TO RUN LSD-SLAM AND GET BETTER RESULTS
+
+In different terminals, run:
+
+1) roscore
+	If something weird happen (like "WARNING: ROS_MASTER_URI [http://192.168.1.74:11311] host is not set to this machine"), run 'export ROS_MASTER_URI=http://192.168.1.19:11311/' or whatever IP you have.
+
+2) rosrun lsd_slam_viewer viewer (this will start the point cloud viewer)
+
+3) rosrun lsd_slam_core dataset_slam _files:=/home/lasr/Videos/nasa_robotic_arm/images/fly-iss/ _hz:=30 _calib:=calibration_file_fly-iss.cfg
+
+You should see the point cloud being formed now. On step 3 you can see all the paths for the current dataset an dcalibration file.
+
+

@@ -1,0 +1,3 @@
+/home/vinicius/Samples/opencvTest/stereoBM/CMakeFiles/edit_cache.dir
+/home/vinicius/Samples/opencvTest/stereoBM/CMakeFiles/rebuild_cache.dir
+/home/vinicius/Samples/opencvTest/stereoBM/CMakeFiles/stereoBM.dir
