@@ -41,7 +41,7 @@ while True:
 
 	# Get the delta of the first & current frame
 	#	 https://docs.opencv.org/2.4/modules/core/doc/operations_on_arrays.html#absdiff
-	delta = cv2.absdiff(firstFrame, gray)
+	delta = cv2.absdiff(thefirstFrame, gray)
 
 	# Apply a binary threshold to the frame 
 	# 	https://docs.opencv.org/2.4/doc/tutorials/imgproc/threshold/threshold.html
